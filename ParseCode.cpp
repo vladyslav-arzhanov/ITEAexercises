@@ -109,16 +109,18 @@ std::shared_ptr<Node> Parse(Item&& it_begin, Item&& it_end, const int& x) {
 }
 
 int main() {
-	std::string expr{};
-	int x;
+	//std::string expr{};
+	//int x;
 
-	std::cout << "Enter your expresion: ";
-	std::cin >> expr;
-	auto op = Parse(expr.begin(), expr.end(), x);
+	//std::cout << "Enter your expresion: ";
+	//std::cin >> expr;
+	//auto op = Parse(expr.begin(), expr.end(), x);
 
-	std::cout << "Enter mean value x: ";
-	std::cin >> x;
-	std::cout << "The resault: " << op->Evaluate();
+	//std::cout << "Enter mean value x: ";
+	//std::cin >> x;
+	//std::cout << "The resault: " << op->Evaluate();
 
+
+	int8_t f = 130;
 	return 0;
 }
